@@ -4,6 +4,8 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url("imges/patt.png");
+
 }
 .container {
     width: 1200px;
@@ -13,12 +15,14 @@ body {
 }
 
 .header {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px 0;
 }
 
 [class*="col-"] {
     float: left;
 }
-.row::after {
+.row::after, .menu::after{
     display: block;
     content: "";
     clear: both;
@@ -28,4 +32,28 @@ body {
 }
 .col-6 {
     width: 50%;
+}
+
+.menu li {
+    width: 25%;
+    float: left;
+    border-left: 1px solid #2c71b8;
+}
+
+.menu li:last-child {
+    border-right: 1px solid #2c71b8;
+
+}
+.menu a {
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #2c71b8;
+    font-size: 21px;
+    line-height: 50px;
+}
+.menu a:hover {
+    background-color: #2c71b8;
+    color: white;
 }
