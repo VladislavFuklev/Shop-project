@@ -134,13 +134,13 @@ body {
 
 .slider {
     height: 400px;
-    background-color: black;
+    background-color: 568dc6;
 }
 
 
 .sidebar {
     width: 25%;
-    background-color: black;
+    background-color: #568dc6;
     height: 400px;
     float: left;
 }
@@ -148,6 +148,11 @@ body {
 .laptop-menu{
     float: right;
     border: 1px solid black;
+}
+.crumbs a{
+    text-decoration: none;
+    color: #96b8dc;
+    font-size: 14px;
 }
 
 .title {
@@ -249,7 +254,6 @@ margin-top: 15px;
     margin-top: 15px;
 }
 .price-button button{
-    display: block;
     width: 150px;
     height: 40px;
     
@@ -265,13 +269,22 @@ margin-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
 }
+.button-one button{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: none;
+}
+
+
 .button-two {
     position: relative;
+    border: none;
 }
 .price-button img {
     position: absolute;
-    top: 10px;
-    left: 122px;
+    top: 20px;
+    left: 170px;
 }
 
 
