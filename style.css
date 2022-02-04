@@ -88,14 +88,16 @@ body {
       background-color: #fff;
       margin-top: 3px;
   }
-
+.form-input {
+    position: relative;
+}
   .search-logo {
       position: absolute;
       display: block;
       background-color: #2c71b8;
       padding: 5px;
-      top: 38px;
-      right: 260px;
+      top: 13px;
+      left: 110px;
   }
   
 
@@ -128,4 +130,108 @@ body {
   
 .list-none:hover .menu-none {
     display: block;
+}
+
+.slider {
+    height: 400px;
+    background-color: black;
+}
+
+
+.sidebar {
+    width: 25%;
+    background-color: black;
+    height: 400px;
+    float: left;
+}
+
+.laptop-menu{
+    float: right;
+    border: 1px solid black;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 25px;
+    color: white;
+}
+
+.products{
+    margin-top: 50px;
+}
+.computer {
+    padding-left: 15px;
+}
+.img {
+    background-color: rgb(202, 219, 237);
+    text-align: center;
+}
+
+.computer-title h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+padding-top: 15px;}
+
+.computer-text {
+    color: white;
+    margin-top: 15px;
+}
+.computer-type {
+    margin-top: 15px;
+    color: white;
+}
+.computer-type-text {
+    display: block;
+    margin-top: 5px;
+}
+
+.text-weigth {
+    font-weight: 800;
+}
+.price {
+margin-top: 15px;
+}
+.price-text {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.price-weight {
+    font-weight: 800;
+}
+
+.price-button {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.price-button button{
+    display: block;
+    width: 150px;
+    height: 40px;
+    
+}
+.price-button-text {
+    margin-top: 10px;
+    background-color: rgba(43, 113, 183, 0.75);
+color: white;
+
+}
+.computer-description {
+    background-color: rgba(43, 113, 183, 0.75);
+}
+.button-two {
+    position: relative;
+}
+.price-button img {
+    position: absolute;
+    top: 10px;
+    left: 122px;
+}
+
+
+.products-menu {
+    float: left;
 }
