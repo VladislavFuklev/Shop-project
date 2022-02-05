@@ -64,6 +64,7 @@ body {
 .col-9 {
     padding-left: 30px;
     width: 75%;
+    
 }
 
 .input {
@@ -145,25 +146,19 @@ body {
     float: left;
 }
 
-.laptop-menu{
-    float: right;
-    border: 1px solid black;
-}
-.crumbs a{
-    text-decoration: none;
-    color: #96b8dc;
-    font-size: 14px;
+
+.main .col-9 {
+    width: 75%;
+    float: left;
 }
 
-.title {
-    font-weight: 800;
-    font-size: 40px;
-    margin-top: 25px;
-    color: white;
+.col-4 {
+    width: 33%;
 }
 
 .products{
     margin-top: 50px;
+    float: left;
 }
 .product {
     padding-left: 15px;
