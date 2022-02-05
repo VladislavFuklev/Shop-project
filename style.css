@@ -34,6 +34,10 @@ body {
 .col-6 {
     width: 50%;
 }
+.col-9 {
+    width: 75%;
+    
+}
 .logo {
     margin-top: 6px;
 }
@@ -61,11 +65,7 @@ body {
     background-color: #2c71b8;
     color: white;
 }
-.col-9 {
-    padding-left: 30px;
-    width: 75%;
-    
-}
+
 
 .input {
     height: 40px;
@@ -135,34 +135,24 @@ body {
 
 .slider {
     height: 400px;
-    background-color: 568dc6;
 }
 
 
-.sidebar {
-    width: 25%;
-    background-color: #568dc6;
-    height: 400px;
-    float: left;
-}
 
 
-.main .col-9 {
-    width: 75%;
-    float: left;
-}
+
+
 
 .col-4 {
     width: 33%;
+    float: left;
 }
 
 .products{
     margin-top: 50px;
-    float: left;
 }
 .product {
-    padding-left: 15px;
-}
+margin-left: 15px;}
 .img {
     position: relative;
     background-color: rgb(202, 219, 237);
@@ -191,6 +181,16 @@ body {
 
 }
 
+.img-icon-product-two {
+    background-color: #2c71b8;
+}
+.cent-style-product-two {
+    position: absolute;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    font-weight: 800;
+}
 
 
 .product-title h2 {
@@ -232,13 +232,7 @@ margin-top: 15px;
     right: 30px;
     font-weight: 800;
 }
-.cent-style-two {
-    position: absolute;
-    font-size: 25px;
-    top: 5px;
-    right: 16px;
-    font-weight: 800;
-}
+
 .price-weight {
     font-weight: 800;
 }
@@ -284,12 +278,16 @@ margin-top: 15px;
 }
 
 
-.products-menu {
-    float: left;
-}
+
 
 .heart-bc img{
     background-color: #2c71b8;
 }
 
 
+.img-clock {
+    position: relative;
+    background-color: rgb(202, 219, 237);
+    text-align: center;
+    padding: 36px;  
+}
