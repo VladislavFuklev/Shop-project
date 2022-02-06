@@ -39,7 +39,6 @@ body {
 }
 .col-9 {
     width: 75%;
-    padding-left: 30px;
 }
 .logo {
     margin-top: 6px;
@@ -94,7 +93,7 @@ body {
   }
 .form-input {
     position: relative;
-    margin-left: 20px;
+    margin-left: 54px;
 }
   .search-logo {
       position: absolute;
@@ -155,6 +154,10 @@ body {
     background-color: rgb(202, 219, 237);
     text-align: center;
     padding: 45px 85px;  
+}
+
+.img-comp {
+    padding: 42px 85px;
 }
 .img-icon img {
     position: absolute;
@@ -320,3 +323,21 @@ margin-top: 15px;
     font-size: 21px;
 }
 
+.img-notebook {
+    position: relative;
+    background-color: rgb(202, 219, 237);
+    text-align: center;
+    padding: 55px;
+}
+.img-ipad {
+    position: relative;
+    background-color: rgb(202, 219, 237);
+    text-align: center;
+    padding: 35px;
+}
+.img-phone {
+    position: relative;
+    background-color: rgb(202, 219, 237);
+    text-align: center;
+    padding: 35px;
+}
