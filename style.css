@@ -116,6 +116,7 @@ body {
 
 
   .menu-none-list a {
+      display: block;
     color: white;
     text-align: left;
     padding-left: 30px;
@@ -135,6 +136,58 @@ body {
     display: block;
 }
 
+
+.sort-menu{
+    width: 293px;
+    position: relative;
+    left: 612px;
+    top: -65px;
+
+}
+.none-menu {
+    position: absolute;
+    display: none;
+}
+.none-menu-li {
+    background-color: #2b71b7;
+    border:1px solid white ;
+    width: 292px;
+    margin-top: -2px;
+    height: 40px;
+    line-height: 40px;
+}
+.sort-menu-li {
+    background-color: #2b71b7;
+    border:1px solid white ;
+    height: 40px;
+    line-height: 40px;
+}
+.title-text {
+    width: 100%;
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+    font-size: 21px;
+}
+.title-text-none {
+    display: block;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.sort-menu:hover .none-menu {
+    display: block;
+}
+
+.none-menu-li:hover .title-text-none {
+    background-color: #fff;
+    color: #2c71b8;
+}
+
+
 .slider {
     height: 400px;
 }
@@ -144,7 +197,7 @@ body {
 }
 
 .products{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .product {
     margin-left: 15px;
@@ -250,7 +303,7 @@ margin-top: 15px;
 }
 .price-button-text {
     margin-top: 10px;
-    background-color: rgba(43, 113, 183, 0.75);
+    background-color: #558dc5;
     color: white;
 
 }
@@ -260,24 +313,23 @@ margin-top: 15px;
     padding-right: 20px;
 }
 .button-one button{
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
-    border-bottom: none;
+    border:2px solid white;;
+    background-color: #2c71b8;
 }
 
 
 .button-two {
     position: relative;
-    border: none;
 }
 .price-button img {
     position: absolute;
     top: 20px;
-    left: 170px;
+    left: 175px;
 }
 
-
+.btn-two {
+    border: none;
+}
 
 
 .heart-bc img{
@@ -286,7 +338,6 @@ margin-top: 15px;
 
 
 .img-clock {
-    position: relative;
     background-color: rgb(202, 219, 237);
     text-align: center;
     padding: 36px;  
@@ -300,27 +351,19 @@ margin-top: 15px;
 }
 .title h1{
     margin-top: 15px;
+    margin-bottom: 20px;
     color: white;
     font-size: 48px;
 }
-.title {
-   position: relative;
-}
+
+
+
 
 .title-text {
-    position: absolute;
-    right: 20px;
-    top: 5px;
-    width: 253px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #3074b8;
-    border: 1px solid white;
     text-decoration: none;
     color: white;
-    text-align: left;
-    padding-left: 10px;
     font-size: 21px;
+    padding: 15px;
 }
 
 .img-notebook {
@@ -340,4 +383,8 @@ margin-top: 15px;
     background-color: rgb(202, 219, 237);
     text-align: center;
     padding: 35px;
+}
+
+.sort-menu {
+    position: relative;
 }
