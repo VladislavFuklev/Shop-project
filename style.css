@@ -138,9 +138,9 @@ body {
 
 
 .sort-menu{
-    width: 293px;
+    width: 261px;
     position: relative;
-    left: 612px;
+    left: 629px;
     top: -65px;
 
 }
@@ -196,6 +196,7 @@ body {
 
 .col-4 {
     width: 33%;
+    padding: 0 15px;
 }
 
 .products{
@@ -243,7 +244,7 @@ body {
     position: absolute;
     font-size: 25px;
     top: 5px;
-    right: 15px;
+    right: 7px;
     font-weight: 800;
 }
 
@@ -284,7 +285,7 @@ margin-top: 15px;
     position: absolute;
     font-size: 25px;
     top: 5px;
-    right: 30px;
+    right: 22px;
     font-weight: 800;
 }
 
@@ -326,7 +327,7 @@ margin-top: 15px;
 .price-button img {
     position: absolute;
     top: 20px;
-    left: 175px;
+    left: 163px;
 }
 
 .btn-two {
@@ -388,6 +389,3 @@ margin-top: 15px;
     padding: 35px;
 }
 
-.sort-menu {
-    position: relative;
-}
