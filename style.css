@@ -467,7 +467,7 @@ input[type="checkbox"]:checked + label:before {
 
 .footer {
   background-color: #cadbed;
-  margin-top: 155px;
+  margin-top: 90px;
   height: 100px;
 
 }
@@ -479,4 +479,13 @@ input[type="checkbox"]:checked + label:before {
 }
 .footer img {
   width: 20px;
+}
+.load {
+  position: relative;
+  margin-top: 40px;
+  left: 640px;
+}
+.load span {
+  font-size: 36px;
+  color: white;
 }
