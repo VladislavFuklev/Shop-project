@@ -348,7 +348,9 @@ body {
   text-align: center;
   padding: 36px;
 }
-
+.crups {
+  padding-top: 20px;
+}
 .crups a {
   text-decoration: none;
   color: #7ca7d3;
@@ -386,4 +388,95 @@ body {
   background-color: rgb(202, 219, 237);
   text-align: center;
   padding: 35px;
+}
+
+.sidebar {
+  background-color: #568dc6;
+  width: 270px;
+  padding-left: 30px;
+  padding-top: 30px;
+  float: left;
+}
+
+.sidebar-title{
+  color: white;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+label::before {
+  position: relative;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+input[type="checkbox"]:checked + label:before {
+  background-color: #fff;
+}
+.sidebar label {
+  display: inline-block;
+}
+.sidebar span {
+  margin-left: 10px;
+  color: white;
+  font-size: 21px;
+  display: inline-block;
+}
+.device-type-checkbox {
+  margin-top: 25px;
+}
+
+.sidebar-list {
+  margin-top: 20px;
+}
+
+.color {
+  margin-top: 65px;
+}
+.ram {
+  margin-top: 60px;
+}
+.sidebar-text {
+  margin-top: 15px;
+}
+.sidebar-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sidebar-btn-text {
+  background-color: #2b71b7;
+  height: 50px;
+  line-height: 50px;
+  width: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 21px;
+  border: none;
+}
+.sidebar-btn-text:hover {
+  background-color: #1d4c7a;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #cadbed;
+  margin-top: 155px;
+  height: 100px;
+
+}
+.footer-text {
+  color: #2c71b8;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 40px;
+}
+.footer img {
+  width: 20px;
 }
