@@ -391,7 +391,7 @@ body {
 }
 
 .sidebar {
-  background-color: #568dc6;
+  background: rgba(86, 141, 198, 0.75);
   width: 270px;
   padding-left: 30px;
   padding-top: 30px;
