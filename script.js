@@ -26,7 +26,12 @@ let iconHearts = document.querySelectorAll(".heart-icon")
 
 
 function bgcIcon(e) {
-    e.target.style.backgroundColor = "white"
+    let white = e.target.style.backgroundColor
+    if(white === "white"){
+        e.target.style.backgroundColor = "rgb(202, 219, 237)"
+    } else {
+        e.target.style.backgroundColor = "white"
+    }
 }
 iconHearts.forEach((icon)=>{
     icon.addEventListener("click", bgcIcon)
