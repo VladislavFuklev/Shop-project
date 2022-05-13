@@ -7,22 +7,40 @@ for (let i = 0; i < addToCartBrns.length; i++) {
 }
 
 
-
-let form = document.querySelector(".modal")
-let moreBtn = document.querySelectorAll(".btn-more")
-moreBtn.forEach((btn)=> {
-    btn.addEventListener("click", function(){
-        form.classList.add('show')
-    })
-})
+// MODAL
+let modal = document.querySelector(".modal")
+let moreBtn = document.querySelectorAll(".btn-more");
 let btnClose = document.querySelector(".btn-close")
-function closeForm() {
-    form.classList.remove('show')
+function openModal() {
+    modal.classList.add("show");
+    modal.classList.remove("hide");
+  }
+  function closeModal() {
+    modal.classList.add("hide");
+    modal.classList.remove("show");
+  }
+  moreBtn.forEach((btn) => {
+    btn.addEventListener("click", openModal);
+  });
+btnClose.addEventListener('click', closeModal)
+
+modal.addEventListener("click", function (e) {
+    if(e.target === modal) {
+        closeModal()
+    }
+})
+function showModalByScroll() {
+    if(window.pageYOffset > document.body.scrollHeight / 2) {
+        openModal()
+        window.removeEventListener("scroll", showModalByScroll)
+    }
 }
-btnClose.addEventListener('click', closeForm)
+window.addEventListener("scroll",showModalByScroll)
 
 
 
+
+// ICON
 let iconHearts = document.querySelectorAll(".heart-icon")
 function bgcIcon(e) {
     let white = e.target.style.backgroundColor
@@ -35,4 +53,12 @@ function bgcIcon(e) {
 iconHearts.forEach((icon)=>{
     icon.addEventListener("click", bgcIcon)
 })
+
+
+
+$(".slider").slick({
+    // autoplay:true,
+    dots:true
+})
+
 

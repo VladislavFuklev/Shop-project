@@ -43,6 +43,9 @@ body {
 .logo {
   margin-top: 6px;
 }
+.col-12 {
+  width: 100%;
+}
 
 .menu li {
   width: 25%;
@@ -195,7 +198,13 @@ body {
 }
 
 .slider {
-  height: 400px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.slider > div{
+  text-align: center;
+  padding: 175px;
 }
 
 .col-4 {
@@ -225,6 +234,7 @@ body {
 }
 .img-icon img:hover {
   background-color: #fff;
+  cursor: pointer;
 }
 
 .img-icon-heart {
@@ -232,6 +242,7 @@ body {
   top: 35px;
   right: 1px;
 }
+.liked,
 .img-icon-heart img {
   border: 1px solid #2c71b8;
   padding: 3px;
@@ -483,7 +494,6 @@ input[type="checkbox"]:checked + label:before {
 .load {
   position: relative;
   margin-top: 40px;
-  left: 640px;
 }
 .load span {
   font-size: 36px;
@@ -536,3 +546,5 @@ input[type="checkbox"]:checked + label:before {
 .hide {
   display: none;
 }
+
+
