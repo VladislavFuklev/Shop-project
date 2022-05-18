@@ -125,6 +125,7 @@ body {
   width: 293px;
   margin-left: -1px;
   display: none;
+  z-index: 100;
 }
 
 .menu-none-list a {
@@ -566,4 +567,8 @@ input[type="checkbox"]:checked + label:before {
   background-color: #fff;
   width: 10px;
   height: 10px;
+}
+
+.product-quantity{
+  text-align: center;
 }
