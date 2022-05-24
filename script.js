@@ -126,6 +126,9 @@ function Counter(incrementBtn,decrementBtn,inputField, minCount = 1, maxCount = 
     this.domRefs.decrementBtn.addEventListener("click", this.decrement.bind(this))
 }   
 
-const counter1 = new Counter(incrementBtns[0],decrementBtns[0], quantityYnputs[0])
 
-console.log(counter1);
+
+const counters =[]
+quantityYnputs.forEach((item, i)=> {
+    counters[i] = new Counter(incrementBtns[i],decrementBtns[i],item)
+})
